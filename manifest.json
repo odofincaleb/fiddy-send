@@ -1,24 +1,19 @@
 {
   "manifest_version": 3,
-  "name": "WhatsApp Business Bulk Sender",
-  "version": "1.3.9",
+  "name": "Fiddy Send — WA Bulk Sender",
+  "version": "1.0.0",
   "icons": {
     "16": "icons/icon16.png",
     "32": "icons/icon32.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "update_url": "https://raw.githubusercontent.com/Maheshpatgar488/Whatsapp-Bulk-Sender-Chrome-Extension-/main/updates.xml",
-  "description": "Send bulk personalized WhatsApp messages from Excel/CSV with placeholder tags, auto-delay pacing, and delivery export.",
+  "update_url": "https://fideantech.com/fiddy-send/updates.xml",
+  "description": "Send bulk personalized WhatsApp messages from Excel/CSV with template tags, smart delay pacing, and delivery tracking. Powered by Fidean.",
   "browser_specific_settings": {
     "gecko": {
-      "id": "whatsapp-bulk-sender@maheshpatgar.com",
-      "strict_min_version": "109.0",
-      "data_collection_permissions": {
-        "required": [
-          "none"
-        ]
-      }
+      "id": "fiddy-send@fideantech.com",
+      "strict_min_version": "109.0"
     }
   },
   "permissions": [
@@ -30,11 +25,12 @@
   "host_permissions": [
     "*://web.whatsapp.com/*",
     "https://web.whatsapp.com/*",
-    "https://raw.githubusercontent.com/*"
+    "https://fideantech.com/*",
+    "https://fiddy-send.fideantech.com/*"
   ],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "WhatsApp Bulk Sender",
+    "default_title": "Fiddy Send — WA Bulk Sender",
     "default_icon": {
       "16": "icons/icon16.png",
       "32": "icons/icon32.png",
