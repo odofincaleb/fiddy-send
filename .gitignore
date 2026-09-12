@@ -10,3 +10,9 @@ graphify-out/*
 # Built packages (stored locally, not in git source repo to avoid false-positive AV warnings)
 *.zip
 *.xpi
+
+# Chrome Web Store / publishing secrets and local state
+.cws_refresh_token
+.cws_item_id
+.env
+.env.*
