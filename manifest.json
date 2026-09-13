@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Fiddy Send — WA Bulk Sender",
+  "name": "Fiddy Send \u2014 WA Bulk Sender",
   "version": "1.0.0",
   "icons": {
     "16": "icons/icon16.png",
@@ -8,8 +8,7 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "update_url": "https://fideantech.com/fiddy-send/updates.xml",
-  "description": "Send bulk personalized WhatsApp messages from Excel/CSV with template tags, smart delay pacing, and delivery tracking. Powered by Fidean.",
+  "description": "Send bulk personalized WhatsApp Web messages from Excel, CSV or VCF with smart delays.",
   "browser_specific_settings": {
     "gecko": {
       "id": "fiddy-send@fideantech.com",
@@ -30,7 +29,7 @@
   ],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Fiddy Send — WA Bulk Sender",
+    "default_title": "Fiddy Send \u2014 WA Bulk Sender",
     "default_icon": {
       "16": "icons/icon16.png",
       "32": "icons/icon32.png",
